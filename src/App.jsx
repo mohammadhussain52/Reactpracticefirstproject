@@ -5,12 +5,14 @@ import Homepage from './pages/Homepage';
 import Mainlayout from './layout/Mainlayout';
 import Jobspage from './pages/Jobspage';
 import NotFoundpage from './pages/NotFoundpage';
+import SinglejobPage from './pages/SinglejobPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements (
   <Route path='/' element={<Mainlayout />}>
       <Route index element={<Homepage />} />
       <Route path='/jobs' element={<Jobspage />} />
+      <Route path='/job/:id' element={<SinglejobPage />} />
       <Route path='/*' element={<NotFoundpage />} />
       </Route>
   )
