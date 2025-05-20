@@ -17,7 +17,7 @@ const Joblisting = ({ slice , heading}) => {
         setJobs(data);
       }
       catch (error) {
-        console.log('Error fetching data, error')
+        console.log('Error fetching data, error')   
       }
       finally {
         setLoading(false)
