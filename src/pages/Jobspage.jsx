@@ -1,6 +1,4 @@
-import JobListings from '../components/JobListings'
 import React from 'react'
-import jobs from '../jobs.json'
 import Joblisting from '../components/Joblisting'
 
 const Jobspage = () => {

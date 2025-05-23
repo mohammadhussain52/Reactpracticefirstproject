@@ -4,41 +4,13 @@
       "id": "1",
       "title": "Senior React Developer",
       "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
       "location": "Boston, MA",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
       "salary": "$70K - $80K",
       "company": {
         "name": "NewTek Solutions",
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
         "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
-      "type": "Full-Time",
-      "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "3",
-      "title": "React.js Dev",
-      "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
         "contactPhone": "555-555-5555"
       }
     },
@@ -72,16 +44,58 @@
     },
     {
       "id": "6",
-      "title": "React Native Developer",
-      "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "title": "React Native",
+      "type": "Part-Time",
       "location": "Portland, OR",
+      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
       "salary": "$100K - $110K",
       "company": {
         "name": "Port Solutions INC",
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "c283",
+      "title": "React.Js Developer",
+      "type": "Internship",
+      "location": "Karachi",
+      "description": "Are you passionate about front-end development and excited to work on real-world projects? CarpeDiem is looking for a driven and curious React Developer Intern to join our dynamic team. If you’re eager to sharpen your skills, build beautiful interfaces, and learn from experienced developers in a supportive environment, this internship is for you.",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Carpediem",
+        "description": "At CarpeDiem, we believe in more than just delivering digital solutions—we believe in creating experiences that leave a lasting impact.\n\nFounded with the spirit of innovation and creativity, CarpeDiem is a full-service digital agency that partners with brands to design, build, and scale powerful online experiences. From elegant websites to robust eCommerce platforms, custom applications, and marketing strategies, we blend technology with design to help businesses grow in the digital age.",
+        "contactEmail": "careers.carpediem@gmail.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "99a2",
+      "title": "dsadwda",
+      "type": "Remote",
+      "location": "Boston, MA",
+      "description": "dsfdszxcsc",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "sdewrwscsac",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "+923322467774"
+      }
+    },
+    {
+      "id": "d4f9",
+      "title": "dsadaxz",
+      "type": "Part-Time",
+      "location": "Boston, MA",
+      "description": "xasdasxz",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "asdawewqewqas",
+        "contactEmail": "mhussain8440@gmail.com",
+        "contactPhone": "+923322467774"
       }
     }
   ]
