@@ -83,6 +83,20 @@
         "contactEmail": "contact@teksolutions.com",
         "contactPhone": "+923322467774"
       }
+    },
+    {
+      "id": "d42c",
+      "title": "Senior Software Enginner",
+      "type": "Part-Time",
+      "location": "Miami, FL",
+      "description": "Ensure that the job title you create is specific and aligns with the duties and responsibilities carried by the employee, and is generally recognized by ...",
+      "salary": "Under $50K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "Ensure that the job title you create is specific and aligns with the duties and responsibilities carried by the employee, and is generally recognized by ...",
+        "contactEmail": "mhussain8440@gmail.com",
+        "contactPhone": "+923322467774"
+      }
     }
   ]
 }
