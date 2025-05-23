@@ -3,8 +3,8 @@ import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-const Addjobpage = ({addjobsubmit} ) => {
-    const [title, seTitle] = useState('');
+const Addjobpage = ({addJobSubmit } ) => {
+    const [title, setTitle] = useState('');
     const [type, setType] = useState('Full-Time');
     const [location, setLocation] = useState('');
     const [description, setDescription] = useState('');
@@ -33,7 +33,7 @@ const Addjobpage = ({addjobsubmit} ) => {
                 contactPhone
             }
         };
-        addjobsubmit(newjob);
+        addJobSubmit(newjob);
 
         toast.success('Job added successfully')
 
@@ -77,7 +77,7 @@ const Addjobpage = ({addjobsubmit} ) => {
                 placeholder="eg. Beautiful Apartment In Miami"
                 required
                 value={title}
-                onChange={(e) => seTitle(e.target.value) }
+                onChange={(e) => setTitle(e.target.value) }
               />
             </div>
             <div className="mb-4">

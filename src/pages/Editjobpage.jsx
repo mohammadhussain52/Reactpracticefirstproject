@@ -3,10 +3,10 @@ import { useParams, useLoaderData, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import React from 'react'
 
-const Editjobpage = ({ updatejobsubmit }) => {
+const Editjobpage = ({ updateJobSubmit }) => {
   
     const job = useLoaderData();
-    const [title, seTitle] = useState(job.title);
+    const [title, setTitle] = useState(job.title);
     const [type, setType] = useState(job.type);
     const [location, setLocation] = useState(job.location);
     const [description, setDescription] = useState(job.description);
@@ -36,7 +36,7 @@ const Editjobpage = ({ updatejobsubmit }) => {
                 contactPhone
             }
         };
-            updatejobsubmit(updatedjob);
+        updateJobSubmit(updatedjob);
     
             toast.success('Job updated successfully')
     
@@ -81,7 +81,7 @@ const Editjobpage = ({ updatejobsubmit }) => {
                   placeholder="eg. Beautiful Apartment In Miami"
                   required
                   value={title}
-                  onChange={(e) => seTitle(e.target.value) }
+                  onChange={(e) => setTitle(e.target.value) }
                 />
               </div>
               <div className="mb-4">
