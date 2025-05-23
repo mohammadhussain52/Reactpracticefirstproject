@@ -2,7 +2,6 @@
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import './App.css';
-
 import Homepage from './pages/Homepage';
 import Mainlayout from './layout/Mainlayout';
 import Jobspage from './pages/Jobspage';
@@ -10,7 +9,6 @@ import NotFoundpage from './pages/NotFoundpage';
 import SinglejobPage, { jobLoader } from './pages/SinglejobPage';
 import Addjobpage from './pages/Addjobpage';
 import Editjobpage from './pages/Editjobpage';
-
 import { db } from './firebase';
 import { collection, addDoc, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
 
