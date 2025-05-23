@@ -8,10 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch src/jobs.json --port 8000"
+    "server": "json-server --watch public/jobs.json --port 8000"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
+    "firebase": "^11.8.1",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.0",
